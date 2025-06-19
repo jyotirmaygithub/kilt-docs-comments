@@ -1,0 +1,23 @@
+{
+  "name": "kilt-exaple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@kiltprotocol/sdk-js": "^1.0.0",
+    "@polkadot/util-crypto": "^13.5.1",
+    "axios": "^1.9.0",
+    "node": "^22.16.0"
+  }
+}
